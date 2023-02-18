@@ -7,7 +7,7 @@ import './Header.css';
 
   return (
     <div className='header'>
-        <h1>Hello Thomas</h1>
+        <h1>Header</h1>
     </div>
   )
 }
