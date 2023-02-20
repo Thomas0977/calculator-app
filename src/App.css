@@ -12,8 +12,8 @@
   --text-color-2: #bbbcbc;
 }
 .custom-scroll::-webkit-scrollbar{
-  height: 5px;
-  width: 5px;
+  height: 0.1px;
+  width: 0.1px;
 
 }
 .custom-scroll::-webkit-scrollbar-track {
