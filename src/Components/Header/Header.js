@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Header.css";
 
-const Header = () => {
+const Header = (props) => {
   const resultRef = useRef();
   useEffect(() => {
     resultRef.current.scrollIntoView({ behavior: "smooth" });
@@ -19,9 +19,9 @@ const Header = () => {
       </div>
       <br />
       <div className="header_expression custom-scroll">
-        <p>10+10+10</p>
+        <p>{props.expression}</p>
         <p ref={resultRef} className="header_result">
-          30
+          {props.result}
         </p>
       </div>
     </div>
